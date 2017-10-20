@@ -11,10 +11,10 @@
   border: none;
   color: #FFFFFF;
   text-align: center;
-  font-size: 60px;
+  font-size: 20px;
   padding: 20px;
-  width:  300px;
-  height: 150px;
+  width:  150px;
+  height: 75px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -46,6 +46,7 @@
 }
 </style>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>NavMenu</title>
   
   
@@ -55,14 +56,16 @@
 
 
   
+  
 </head>
 
 
   <body>
   
+ 
   <div id="Panel1" class=" panel panel1  hide">
      <h2> Body Mass Index</h2>
-	 <br />
+	 
 	 Height (cm):
 	 <br />
 	 <input id="bmih" type="text"></input>
@@ -71,8 +74,7 @@
 	 <br />
 	 <input type="text" id="bmiw"></input>
 	 <br />
-	 <br />
-	 <br />
+	
 	 <button class="button" id="bmic"><span>Calculate</span></button>
     </div>
 	
@@ -80,7 +82,7 @@
 	
 	<div id="Panel2" class=" panel panel2  hide">
 	 <h2> Minimum Amount of Water Per Day</h2>
-	 <br />
+	 
 	  Age:
 	 <br />
 	 <input id ="wa" type="text"></input>
@@ -89,8 +91,7 @@
 	 <br />
 	 <input id="ww"type="text"></input>
 	 <br />
-	 <br />
-	 <br />
+	
 	 <button id="wc" class="button"><span>Calculate</span></button>
     </div>
 	
@@ -98,7 +99,7 @@
 	
 	<div id="Panel3" class=" panel panel3  hide">
 	 <h2> Heart Rate Zone For Fat Burning</h2>
-	 <br />
+	 
 	  Age:
 	 <br />
 	 <input id="hra" type="text"></input>
@@ -107,8 +108,7 @@
 	 <br />
 	 <input id="hrr" type="text"></input>
 	 <br />
-	 <br />
-	 <br />
+	 
 	 <button id="hrc" class="button"><span>Calculate</span></button>
     </div>
 	
@@ -116,7 +116,7 @@
 	
 	<div id="Panel4" class=" panel panel4  hide">
 	 <h2> One Rep Max</h2>
-	 <br />
+	 
 	  Weight (kg):
 	 <br />
 	 <input id="rw" type="text"></input>
@@ -125,8 +125,7 @@
 	 <br />
 	 <input id="rr" type="text"></input>
 	 <br />
-	 <br />
-	 <br />
+	 
 	 <button id="rc" class="button"><span>Calculate</span></button>
     </div>
 	
@@ -134,8 +133,11 @@
 	
   <div class="container">
     <div id="navMenu" >
-	Body Calculator
-      <div id="mainRotCorrect" class="rotCorrect"><img class="Menu_Icon" src="img/Menu_Icon.png" alt="Menu_Icon"></div>
+	Fitness  Calculator 
+	     <br />
+			...
+	 
+      <div id="mainRotCorrect" class="rotCorrect"></div>
     </div>
     <div id="nav1" class="nav nav1 diamond small">
      <p> Body Mass Index</p>
