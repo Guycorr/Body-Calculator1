@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html >
+<head>
+<style>
+.button {
+  border-radius: 4px;
+  	 background: linear-gradient( #0099cc, #0066cc, #002db3);
+     -webkit-background: linear-gradient( #0099cc, #0066cc, #002db3);
+	  background-size: 400% 400%;
+     -webkit-background-size: 400% 400%;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px;
+  width:  300px;
+  height: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+</style>
+  <meta charset="UTF-8">
+  <title>NavMenu</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+  
+</head>
+
+
+  <body>
+  
+  <div id="Panel1" class=" panel panel1  hide">
+     <h2> Body Mass Index</h2>
+	 <br />
+	 Height (cm):
+	 <br />
+	 <input id="bmih" type="text"></input>
+	 <br />
+	 Weight (kg):
+	 <br />
+	 <input type="text" id="bmiw"></input>
+	 <br />
+	 <br />
+	 <br />
+	 <button class="button" id="bmic"><span>Calculate</span></button>
+    </div>
+	
+	<h2 id="bmia" class="panel hide"></h2>
+	
+	<div id="Panel2" class=" panel panel2  hide">
+	 <h2> Minimum Amount of Water Per Day</h2>
+	 <br />
+	  Age:
+	 <br />
+	 <input id ="wa" type="text"></input>
+	 <br />
+	 Weight (kg):
+	 <br />
+	 <input id="ww"type="text"></input>
+	 <br />
+	 <br />
+	 <br />
+	 <button id="wc" class="button"><span>Calculate</span></button>
+    </div>
+	
+	<h2 id="watera" class="panel hide"></h2>
+	
+	<div id="Panel3" class=" panel panel3  hide">
+	 <h2> Heart Rate Zone For Fat Burning</h2>
+	 <br />
+	  Age:
+	 <br />
+	 <input id="hra" type="text"></input>
+	 <br />
+	 Resting Heart Rate:
+	 <br />
+	 <input id="hrr" type="text"></input>
+	 <br />
+	 <br />
+	 <br />
+	 <button id="hrc" class="button"><span>Calculate</span></button>
+    </div>
+	
+	<h2 id="hras" class="panel hide"></h2>
+	
+	<div id="Panel4" class=" panel panel4  hide">
+	 <h2> One Rep Max</h2>
+	 <br />
+	  Weight (kg):
+	 <br />
+	 <input id="rw" type="text"></input>
+	 <br />
+	 Reps:
+	 <br />
+	 <input id="rr" type="text"></input>
+	 <br />
+	 <br />
+	 <br />
+	 <button id="rc" class="button"><span>Calculate</span></button>
+    </div>
+	
+	<h2 id="ra" class="panel hide"></h2>
+	
+  <div class="container">
+    <div id="navMenu" >
+	Body Calculator
+      <div id="mainRotCorrect" class="rotCorrect"><img class="Menu_Icon" src="img/Menu_Icon.png" alt="Menu_Icon"></div>
+    </div>
+    <div id="nav1" class="nav nav1 diamond small">
+     <p> Body Mass Index</p>
+    </div>
+	
+    <!--<div class="popUp">Home</div>-->
+    <div id="nav2" class="nav nav2 diamond small">
+       <p> Water Per Day</p>
+    </div>
+    <div id="nav3" class="nav nav3 diamond small">
+       <p> Heart Rate Zone For Fat Burning</p>
+    </div>
+    <div id="nav4" class="nav nav4 diamond small">
+       <p> One Rep Max</p>
+    </div>
+   
+	
+  </div>
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
