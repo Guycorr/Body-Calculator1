@@ -157,25 +157,7 @@ position: absolute;
 }
 
 
-.panel1{
-	position: absolute;
-	bottom: 0px;
-	right: 0px;
-	left: 0px;
-	top: 450px;
-	 background: linear-gradient( #2F2F31);
-     -webkit-background: linear-gradient( #2F2F31);
-	  background-size: 400% 400%;
-     -webkit-background-size: 400% 400%;
-	 
-	 color: #0066cc; 
-	font-family: 'Helvetica Neue', sans-serif; 
-	font-size: 90px; 
-	font-weight: bold; 
-	text-align: center;
-	z-index: 90;
-	
-}
+
 
 .panel{
 	position: absolute;

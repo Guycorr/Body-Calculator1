@@ -56,7 +56,7 @@ $(document).ready(function() {
    $("#nav2").click(function() {
    //$(".nav").toggleClass("small");
     if ($(".panel2").hasClass("hide")) {
-		$(".pane2").addClass("big");
+		$(".panel").addClass("big");
       $(".panel2").removeClass("hide");
 	  $(".nav").removeClass("big");
 	  $(".nav").addClass("smallFast");
@@ -68,7 +68,7 @@ $(document).ready(function() {
    $("#nav3").click(function() {
    //$(".nav").toggleClass("small");
     if ($(".panel3").hasClass("hide")) {
-		$(".pane3").addClass("big");
+		$(".panel").addClass("big");
       $(".panel3").removeClass("hide");
 	  $(".nav").removeClass("big");
 	  $(".nav").addClass("smallFast");
@@ -81,7 +81,7 @@ $(document).ready(function() {
   $("#nav4").click(function() {
    //$(".nav").toggleClass("small");
     if ($(".panel4").hasClass("hide")) {
-		$(".pane4").addClass("big");
+		$(".panel").addClass("big");
       $(".panel4").removeClass("hide");
 	  $(".nav").removeClass("big");
 	  $(".nav").addClass("smallFast");
